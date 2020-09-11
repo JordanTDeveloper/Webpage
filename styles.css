@@ -1,89 +1,82 @@
-
-
 body {
-  margin: 0;
-  font-family: sans-serif;
-    background: linen;
+	margin: 0;
+	font-family: sans-serif;
+	background: linen;
 }
-
 img {
-  width: 20%;
+	width: 20%;
+    
 }
 
+height{
+    height: auto;
+}
 img.rounded {
-  border-radius: 8px;
+	border-radius: 8px;
 }
-
 main h2 {
-  font-size: 23px;
-  font-family: sans-serif;
-  font-weight: 200;
+	font-size: 23px;
+	font-family: sans-serif;
+	font-weight: 200;
 }
-
 main p {
- font-family: sans-serif;
- line-height: 1.5em;
- margin-bottom: 0em;
- padding-left : 80;
- padding-right:80px;
+	font-family: sans-serif;
+	line-height: 1.5em;
+	margin-bottom: 0em;
+	padding-left : 80;
+	padding-right:80px;
 }
-
 /* Header */
-
 header {
-  background-color: #011936;
-  margin-bottom: 15px;
-  display: block;
+	background-color: #011936;
+	margin-bottom: 15px;
+	display: block;
 }
-
 header h1 {
-  color: linen;
-  text-align: center;
-  margin: 0;
-  padding: 50px 0;
-  font-family: Times New Roman;
-  font-size: 64px;
+	color: linen;
+	text-align: center;
+	margin: 0;
+	padding: 50px 0;
+	font-family: Times New Roman;
+	font-size: 64px;
 }
-
-/*  Main */
-
-main  .wrapper  h2 {
-  padding-left: 10px;
-  margin-bottom: 0;
+/* Main */
+main .wrapper h2 {
+	padding-left: 10px;
+	margin-bottom: 0;
 }
-
 main .intro {
-  font-size: 25px;
-  color: black;
-  padding-left: 80px;
-  
+	font-size: 25px;
+	color: black;
+	padding-left: 80px;
 }
-
 /* ARTICLE SECTIONS */
-
 #home, #portfolio, #contact {
-    margin-bottom: 0em;
-    padding-left: 20px;
+	margin-bottom: 0em;
+	padding-left: 20px;
 }
-
 /* ABOUT ARTICLE */
-
 #about {
-  
-  margin: auto;
-  margin-top: auto;
-  padding-left: 20px;
+	margin: auto;
+	margin-top: auto;
+	padding-left: 20px;
 }
-
-
-
 footer p {
-  color: ;
-  text-align: center;
-  padding: 20px;
+	color: ;
+	text-align: center;
+	padding: 20px;
+}
+.wrapper {
+	width: 100%;
+	margin: auto;
 }
 
-.wrapper {
-  width: 100%; 
-  margin: auto; 
+a {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
 }
+
+a:link    { color: #BFD5E2;  }
+a:visited { color: #EF959D;   }
+a:hover   { color: #B8D8BA; }
+a:active  { color: #CDB2AB;}
